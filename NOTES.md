@@ -1,28 +1,23 @@
-# Snake — kipróbálási jegyzetek
+﻿# Snake — kipróbálási jegyzetek
 
-## Az ügynöknek adott kérés
+## Az első kérés
 
-„Ismered a Snake játékot, ezt alkosd meg!” A feladat szerint a játék az index.html megnyitásával induljon, és legyen NOTES.md a játék során talált problémáknak és a kért változtatásoknak.
+A házi feladat leírását megadtam a kódoló ügynöknek, és ezt kértem: „Ismered a Snake játékot, ezt alkosd meg!” Az ügynök elkészítette a böngészőben megnyitható index.html fájlt.
 
-## Elkészült funkciók
+## Tapasztalatok és visszajelzések
 
-- Önálló, offline megnyitható index.html, telepítés nélkül.
-- Nyilak és WASD, valamint érintőképernyős gombok és húzás.
-- Étel, növekedés, pontszám, helyi rekord, három sebesség.
-- Falnak és saját testnek ütközés, újrakezdés, szünet.
-- Másik ablakra vagy böngészőfülre váltáskor automatikus szünet.
+- Először VS Code-ban nyitottam meg az index.html fájlt, ezért a játék helyett a forráskód jelent meg. Képernyőképet küldtem az ügynöknek. Elmagyarázta, hogyan nyissam meg a fájlt böngészőben a Windows Fájlkezelőből.
+- Ezután ezt a visszajelzést adtam: „Ez jó lett, tetszik.” Konkrét játékmenetbeli hibát vagy módosítási igényt eddig nem jeleztem.
+- A GitHubra feltöltés után nem volt egyértelmű, hogyan indítható el onnan a játék. Segítséget kértem, és az ügynök a GitHub Pages beállítását javasolta. A beállításokat átállítottam, de az online indítás tisztázása még folyamatban van.
+- Kértem a kezdeti, üres kipróbálási táblázat helyett a NOTES.md átírását az eddigi tényleges tapasztalatokra.
 
-## Saját játékpróba — még kitöltendő
+## Játékpróba utáni visszajelzés
 
-Ezt a részt tényleges játék után töltsük ki; az ügynök ellenőrzése nem helyettesíti a saját kipróbálást.
+A játék kipróbálása után ezt jeleztem az ügynöknek:
 
-| Mit próbáltam? | Mit tapasztaltam? | Mit kértem az ügynöktől? | Javítás utáni tapasztalat |
-| --- | --- | --- | --- |
-| Irányítás, étel felvétele | Még nincs kipróbálva | — | — |
-| Falnak / saját testnek ütközés | Még nincs kipróbálva | — | — |
-| Szünet, folytatás, újrakezdés | Még nincs kipróbálva | — | — |
-| Sebességváltás, mobilos irányítás | Még nincs kipróbálva | — | — |
+- A megjelenés lehetne színesebb, de a felület használható.
+- Különösen jó, hogy a nehézséget lehet állítani.
+- Az irányítóparancsok működnek.
+- A játék számolja a pontokat.
 
-## Beadás
-
-A jelenlegi munkamappa a MarketLens projekt része. Ez a snake almappa még nem az esst-prog2/snake GitHub-forkja. A beadáshoz a saját fork gyökerébe kell áttenni az index.html és NOTES.md fájlokat, majd push után a fork URL-jét beadni.
+Ezek alapján nem láttam szükségét a játék módosításának, így nem kértem változtatást. A színesebb megjelenés észrevétel maradt, nem megvalósítandó kérés.
